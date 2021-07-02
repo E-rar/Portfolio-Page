@@ -108,7 +108,8 @@ padding:12% 0  0 20%;
         color:rgba(102, 102, 102, 0.705)
     }
 /*button general style*/
-button{
+
+.dark a{
     padding:2vh;
     background-color: rgba(255, 255, 255, 0);
     font-family:Fjalla One;
@@ -116,41 +117,49 @@ button{
     font-size:3vh;
     border-radius:0.3vh;
     border:solid 0.3vh;
-}
-.dark button{
     border-color:#fff;
     font-family:Fjalla One;
     text-align:center;
     font-size:3vh;
     color:#fff;
 }
+
 a{
     text-decoration:none;
     
 }
-.dark a{
+.bright a{
+    padding:2vh;
+    background-color: rgba(255, 255, 255, 0);
     font-family:Fjalla One;
     text-align:center;
     font-size:3vh;
-    color:#fff;
+    border-radius:0.3vh;
+    border:solid 0.3vh;
+    font-family:Fjalla One;
+    text-align:center;
+    font-size:3vh;
+    color:#000;
+    border-color:#000;
 
 }
-.dark div button:hover{
+.dark div a:hover{
     background:#fff;
     color:black;
 }
-.dark button:hover~.leuchte-hell {
+.dark a:hover~.leuchte-hell {
     color:#fff;
 }
-.bright button:hover~.leuchte-dunkel {
+.bright a:hover~.leuchte-dunkel {
     color:#000;
 }
-.bright div button:hover{
+.bright div a:hover{
     background:black;
     color:#fff;
 }
 /* TODO:hover effekt nachgucken */
 /*Hintergründe laden*/
+
 #orbis{
     
     background:url(../IMG/portfolio2.jpg);
